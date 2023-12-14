@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Losowanie prezentów</title>
+    <script src="main.js"defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <div id="main">
+        <header>
+            <h1>Wylosuj prezent</h1>
+        </header>
+        <div id="gift">
+            <p>Nazwa prezentu :</p>
+            <label for="giftName">
+                <input type="text" id="giftName">
+            </label>
+            <input type="button" id="addGift" value="Dodaj prezent do listy">
+        </div>
+        <div id="name">
+            <p>Jak masz na imię?</p>
+            <label for="personName">
+                <input type="text" id="personName">
+            </label>
+            <input type="button" id="randomGift" value="Losuj prezent">
+        </div>
+        <div id="displayGift"></div>
+        <footer>
+            <p>&copy; Michał Cygan</p>
+          </footer>
+        </div>
+    </form>
+</body>
+</html>

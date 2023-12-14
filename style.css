@@ -1,0 +1,33 @@
+form{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+#main{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+#gift{
+    display: grid;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+#name{
+    display: grid;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+#addGift{
+   align-items: center;
+   margin-top: 5px;
+}
+#randomGift{
+    align-items: center;
+    margin-top: 5px;
+}
